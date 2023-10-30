@@ -6,9 +6,10 @@ body {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #9999;
+    border: 1px solid rebeccapurple;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
 .form-group {
@@ -17,25 +18,26 @@ margin: 0 auto;
 
 h1,h4 {
     text-align: center;
+    color: brown;
 }
 
 input[type="text"], input[type="range"] {
     padding: 5px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid lightcyan;
     border-radius: 3px;
     box-sizing: border-box;
     display: inline;
 }
 
 input[type="text"][disabled] {
-    background-color: #9999;
-    color: #333;
+    background-color: lightgoldenrodyellow;
+    color: royalblue;
 }
 
 input[type="text"][disabled]:hover {
-    background-color: #9999;
-    color: #333;
+    background-color: bisque;
+    color: rebeccapurple;
 }
 
 input[type="range"] {
@@ -45,6 +47,7 @@ input[type="range"] {
 label {
     display: inline;
     font-weight: bold;
+    color: brown;
 }
 
 input {

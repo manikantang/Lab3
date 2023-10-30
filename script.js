@@ -17,10 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("please enter a valid bill total");
         } else {
             const tipValue = (billValue * tipPercent) / 100;
-            const totalValue = billValue + tipValue;
-            amt.value = tipValue.toFixed(2);
-            total.value = totalValue.toFixed(2);
-            percent.value = tipPercent;
+            const totalValue = billValue + tipValue ;
+            amt.value = tipValue.toFixed(2) + '$';
+            total.value = totalValue.toFixed(2)+ '$';
+            percent.value = tipPercent + "%";
         }
     }
 });
